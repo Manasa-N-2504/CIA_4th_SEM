@@ -6,7 +6,7 @@ import keras
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 
-data = pd.read_csv(r"D:\4TH SEMESTER\MACHINE LEARNING TECHNIQUES\NN\Bank_Personal_Loan_Modelling.csv").drop(['ID'], axis=1)
+data = pd.read_csv(r"D:\4TH SEMESTER\NN\Bank_Personal_Loan_Modelling.csv").drop(['ID'], axis=1)
 x = data.drop(['Personal Loan'], axis=1).values
 y = to_categorical(data['Personal Loan'].values)
 x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=42, test_size=0.25)

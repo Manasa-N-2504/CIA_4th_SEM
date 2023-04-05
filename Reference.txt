@@ -1,0 +1,5 @@
+The following links were used as reference materials:
+
+1. https://towardsdatascience.com/artificial-neural-networks-optimization-using-genetic-algorithm-with-python-1fe8ed17733e
+2. https://www.hindawi.com/journals/cin/2015/369298/#introduction
+3. http://man.hubwiz.com/docset/Keras.docset/Contents/Resources/Documents/
